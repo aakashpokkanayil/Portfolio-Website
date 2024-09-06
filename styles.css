@@ -140,3 +140,27 @@ header {
     }
   }
 }
+
+.hero{
+  display: flex;
+  margin-top: 30px;
+
+  .hero-blue{
+    flex: 1;
+  }
+
+  .hero-yellow{
+    flex: 1;
+    background-color: var(--yellow);
+    border-radius: 30px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    img {
+      margin-top: -60px;
+      max-width: 420px;
+      margin-bottom: -10px;
+    }
+  }
+}
